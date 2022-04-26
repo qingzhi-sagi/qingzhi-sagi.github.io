@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+node_modules
+*.log
+vuejs-sticky-directive.js
+package-lock.json
