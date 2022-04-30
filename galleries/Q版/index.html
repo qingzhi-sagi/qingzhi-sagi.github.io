@@ -548,8 +548,8 @@ var _hmt = _hmt || [];
 
     <link rel="stylesheet" href="/css/gallery.css">
 
-<link type="text/css" href="/libs/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/libs/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css">
 
 
 
@@ -565,44 +565,244 @@ var _hmt = _hmt || [];
     </div>
 </div>
 
-  
 
+
+
+<!--   "  <p class=\"photo-name\">" + photo + "</p>\n" +
+文件名先注释掉  -->
+
+<!-- 不加密写法 -->
 <div class="container">
+    <div class="photo-wrapper" >
+        <div class="waterfall" id="mygallery">
+            <a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/1.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/1.jpg"
+       alt=Q版/1.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/2.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/2.jpg"
+       alt=Q版/2.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/3.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/3.jpg"
+       alt=Q版/3.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/4.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/4.jpg"
+       alt=Q版/4.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/5.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/5.jpg"
+       alt=Q版/5.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/6.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/6.jpg"
+       alt=Q版/6.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/7.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/7.jpg"
+       alt=Q版/7.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/8.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/8.jpg"
+       alt=Q版/8.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/9.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/9.jpg"
+       alt=Q版/9.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/10.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/10.jpg"
+       alt=Q版/10.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/11.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/11.jpg"
+       alt=Q版/11.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/12.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/12.jpg"
+       alt=Q版/12.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/13.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/13.jpg"
+       alt=Q版/13.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/14.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/14.jpg"
+       alt=Q版/14.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/15.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/15.jpg"
+       alt=Q版/15.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/16.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/16.jpg"
+       alt=Q版/16.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/17.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/17.jpg"
+       alt=Q版/17.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/18.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/18.jpg"
+       alt=Q版/18.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/19.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/19.jpg"
+       alt=Q版/19.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/20.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/20.jpg"
+       alt=Q版/20.jpg>
+    </a>
+        </div>
+    </div>
+</div>
+
+<main class="content" >
+<!-- 加密写法 -->
+ <div class="container">
     <div class="photo-wrapper">
         
             <div class="waterfall" id="encrypt-blog">
-                <a href="Q版/1.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/1.jpg"       alt=Q版/1.jpg>
-    </a><a href="Q版/2.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/2.jpg"       alt=Q版/2.jpg>
-    </a><a href="Q版/3.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/3.jpg"       alt=Q版/3.jpg>
-    </a><a href="Q版/4.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/4.jpg"       alt=Q版/4.jpg>
-    </a><a href="Q版/5.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/5.jpg"       alt=Q版/5.jpg>
-    </a><a href="Q版/6.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/6.jpg"       alt=Q版/6.jpg>
-    </a><a href="Q版/7.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/7.jpg"       alt=Q版/7.jpg>
-    </a><a href="Q版/8.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/8.jpg"       alt=Q版/8.jpg>
-    </a><a href="Q版/9.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/9.jpg"       alt=Q版/9.jpg>
-    </a><a href="Q版/10.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/10.jpg"       alt=Q版/10.jpg>
-    </a><a href="Q版/11.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/11.jpg"       alt=Q版/11.jpg>
-    </a><a href="Q版/12.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/12.jpg"       alt=Q版/12.jpg>
-    </a><a href="Q版/13.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/13.jpg"       alt=Q版/13.jpg>
-    </a><a href="Q版/14.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/14.jpg"       alt=Q版/14.jpg>
-    </a><a href="Q版/15.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/15.jpg"       alt=Q版/15.jpg>
-    </a><a href="Q版/16.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/16.jpg"       alt=Q版/16.jpg>
-    </a><a href="Q版/17.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/17.jpg"       alt=Q版/17.jpg>
-    </a><a href="Q版/18.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/18.jpg"       alt=Q版/18.jpg>
-    </a><a href="Q版/19.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/19.jpg"       alt=Q版/19.jpg>
-    </a><a href="Q版/20.jpg"     class="photo-item" rel="example_group"     data-fancybox="images">      <img src="Q版/20.jpg"       alt=Q版/20.jpg>
+                <a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/1.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/1.jpg"
+       alt=Q版/1.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/2.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/2.jpg"
+       alt=Q版/2.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/3.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/3.jpg"
+       alt=Q版/3.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/4.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/4.jpg"
+       alt=Q版/4.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/5.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/5.jpg"
+       alt=Q版/5.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/6.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/6.jpg"
+       alt=Q版/6.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/7.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/7.jpg"
+       alt=Q版/7.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/8.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/8.jpg"
+       alt=Q版/8.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/9.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/9.jpg"
+       alt=Q版/9.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/10.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/10.jpg"
+       alt=Q版/10.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/11.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/11.jpg"
+       alt=Q版/11.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/12.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/12.jpg"
+       alt=Q版/12.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/13.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/13.jpg"
+       alt=Q版/13.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/14.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/14.jpg"
+       alt=Q版/14.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/15.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/15.jpg"
+       alt=Q版/15.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/16.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/16.jpg"
+       alt=Q版/16.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/17.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/17.jpg"
+       alt=Q版/17.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/18.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/18.jpg"
+       alt=Q版/18.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/19.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/19.jpg"
+       alt=Q版/19.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/20.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/Q版/20.jpg"
+       alt=Q版/20.jpg>
     </a>
             </div>
         
     </div>
-</div>
-
+</div> 
+<main>
+<script src=""></script>
 <script src="/libs/fancybox/fancybox.js"></script>
 <script src="/libs/justifiedGallery/justifiedGallery.min.js"></script>
-<script>
 
-    $("a[rel=example_group]").fancybox();
-    $("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
+<script>
+  // $(".waterfall").lazyload();
+
+$("a[rel=example_group]").fancybox();
+//  不加密写法
+// $("#mygallery").justifiedGallery({margins: 5, rowHeight: 150});
+$("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
 
 </script>
 
