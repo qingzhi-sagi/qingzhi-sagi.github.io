@@ -570,7 +570,8 @@ var _hmt = _hmt || [];
 
 <!--   "  <p class=\"photo-name\">" + photo + "</p>\n" +文件名先注释掉  -->
 
-<!-- 不加密写法 -->
+
+<!-- 不加密写法
 <div class="container">
     <div class="photo-wrapper" >
         <div class="waterfall" id="mygallery">
@@ -598,8 +599,40 @@ var _hmt = _hmt || [];
         </div>
     </div>
 </div>
+-->
 
-
+<main class="content" >
+<!-- 加密写法 -->
+ <div class="container">
+    <div class="photo-wrapper">
+        
+            <div class="waterfall" id="encrypt-blog">
+                <a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/1.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/1.jpg"
+       alt=原神/1.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/2.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/2.jpg"
+       alt=原神/2.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/3.jpg"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/3.jpg"
+       alt=原神/3.jpg>
+    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/4.webp"
+     class="photo-item" rel="example_group noopener"
+     data-fancybox="images">
+      <img src="https://cdn.jsdelivr.net/gh/qingzhi-sagi/images/galleries/原神/4.webp"
+       alt=原神/4.webp>
+    </a>
+            </div>
+        
+    </div>
+</div> 
+<main>
 
 
 <script src=""></script>
@@ -611,7 +644,7 @@ var _hmt = _hmt || [];
 
 $("a[rel=example_group]").fancybox();
 //  不加密写法
-$("#mygallery").justifiedGallery({margins: 5, rowHeight: 150});
+//$("#mygallery").justifiedGallery({margins: 5, rowHeight: 150});
 //$("#encrypt-blog").justifiedGallery({margins: 5, rowHeight: 150});
 
 </script>
